@@ -75,17 +75,15 @@ After the Infrastructure is launched you can access the application from **load 
 ### Output
 After the successful execution of CodePipeline, the website should update automatically upon reloading.
 We have configured Fully automated AWS Architecture in few simple steps. 
- ## **Congrats! Now your web application with CI/CD Pipeline configuration is complete.**
- 
-Note: These Terraform modules can also be used in different AWS projects which makes your job easier.
+ #### **Congrats! Now your web application with CI/CD Pipeline configuration is complete.**
 
-# Terminate
+## **Terminate**
 - This is the crucial part of this project to save costs, Delete Code Pipeline and Code Build project from Console. Now go to Terraform terminal and run:
   ```sh
   terraform destroy
   ```
 - This will destroy all the resources that were launched, saving the time and work for you.
-- Once again, implementing the resources using terraform has made the job easy.
+- Once again, this projects proves to make your job easy by implementing the resources via terraform.
 
 # Customization 
 ### Use EFS with Fargate
