@@ -1,5 +1,5 @@
 # AWS-Architecture-  ECR-ECS CICD
-Launching Complete AWS Architecture made easy using Terraform.
+Launching Complete AWS Architecture made easy using **Terraform**.
 
 ## Architecture Diagram
 ![screenshot](time-off_Architecture.drawio.png)
@@ -11,9 +11,8 @@ Launching Complete AWS Architecture made easy using Terraform.
 - Application Packages and Dockerfile
 
 ## Introduction
-This is an intricate, automatic, highly secure and highly available AWS Architecture. I have created this amazing architecture and made the implementation very easy using Terraform. In this project, we have hosted the application running in AWS as a Elastic Container Service - Fargate. The application is hosted in fargate by making serverless and cost optimization. The application is made Highly Available using load balancer in 2 AZs with Autoscaling, and is Highly Secure by hosting it in Private subnets. Lastly, The app is deployed automatically by AWS CI/CD Pipeline. 
-
-## Repo
+This is an highly secure, and highly available AWS architecture that I have meticulously crafted. Using Terraform, I streamlined the implementation for **_easy deployment_**. The application runs on AWS Elastic Container Service (ECS) - Fargate, showcasing **_serverless technology and cost optimization_**. It's designed for **_maximum availability_** with a load balancer across two Availability Zones (AZs) and autoscaling. Security is paramount, with the application hosted in private subnets. The deployment process is fully automated via an AWS CI/CD pipeline, ensuring **_seamless updates and continuous delivery_**. This architecture exemplifies cutting-edge cloud solutions and sets a new standard in efficiency and **_security_**.
+## Repo Info
 In this Repository, 
 1. Terraform folder - contains descriptive codes for implementating resources in AWS
 2. README.md file
@@ -73,10 +72,10 @@ After the Infrastructure is launched you can access the application from **load 
      - This may take a while to execute.
    Now you can edit _app.js_ file in the github which will trigger the Pipeline to start processing.
 
-## Output
+### Output
 After the successful execution of CodePipeline, the website should update automatically upon reloading.
 We have configured Fully automated AWS Architecture in few simple steps. 
- #### **Congrats! Now your web application with CI/CD Pipeline configuration is complete.**
+ ## **Congrats! Now your web application with CI/CD Pipeline configuration is complete.**
  
 Note: These Terraform modules can also be used in different AWS projects which makes your job easier.
 
@@ -92,17 +91,17 @@ Note: These Terraform modules can also be used in different AWS projects which m
 ### Use EFS with Fargate
   - Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with your Amazon ECS tasks. With Amazon EFS, storage capacity is elastic. It grows and shrinks automatically as you add and remove files. Your applications can have the storage they need and when they need it. 
 
-### Application Security
-   - customize Security groups and NACL rules accordingly. These are very crucial to protect your application.
-   - 
+### Adding more AZs for HA:
+  - I have made the Terraform code very easy to understand and update. You can just edit the vpc.tf in vpc module by adding more AZs and updating the resources accordingly.
+     
 ### Using WAF on top of load balancer:
   - Adding a Web Application Firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet.
 
-### Adding more AZs for HA:
-  - I have made the Terraform code very easy to understand and update. You can just edit the vpc.tf in vpc module by adding more AZs and updating the resources accordingly.
-
 ### DynamoDB for Database service
   - Since we are hosting application in ECS Fargate, use DynamoDB to make this a complete serverless architecture.
+
+### Security Groups and NACL
+   - customize Security groups and NACL rules accordingly. These are very crucial to protect your application.
 
 # Feedback
 Please report any issues or feedback to vishnusharma11d00@gmail.com
