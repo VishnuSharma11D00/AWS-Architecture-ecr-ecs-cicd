@@ -92,6 +92,9 @@ Note: These Terraform modules can also be used in different AWS projects which m
 ### Use EFS with Fargate
   - Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with your Amazon ECS tasks. With Amazon EFS, storage capacity is elastic. It grows and shrinks automatically as you add and remove files. Your applications can have the storage they need and when they need it. 
 
+### Application Security
+   - customize Security groups and NACL rules accordingly. These are very crucial to protect your application.
+   - 
 ### Using WAF on top of load balancer:
   - Adding a Web Application Firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet.
 
