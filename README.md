@@ -1,4 +1,4 @@
-# AWS-Architecture-  ECR-ECS CICD (UPDATED - Completely using terraform)
+# AWS-Architecture-  ECR-ECS CICD (UPDATED - complete implementation using terraform)
 Launching Complete AWS Architecture made easy using **Terraform**.
 ## **_With only 3 simple steps_**.
 
