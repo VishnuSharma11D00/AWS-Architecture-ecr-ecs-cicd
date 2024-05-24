@@ -3,7 +3,7 @@ Launching Complete AWS Architecture made easy using **Terraform**.
 ## **_With only 3 simple steps_**.
 
 ## Architecture Diagram
-![screenshot](time-off_Architecture.drawio.png)
+![screenshot](time-off_Architecture(updated).jpg)
 
 ## Resources
 - AWS Account
